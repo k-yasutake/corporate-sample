@@ -5,7 +5,7 @@
         src="~assets/img/hero/image1.jpg"
         srcset="~assets/img/hero/image1.jpg 1x, ~assets/img/hero/image1-2x.jpg 2x"
         class="ofi ofi--hero"
-        alt="教育の力で社会により良い変革をテスト"
+        alt="教育の力で社会により良い変革をテストテスト"
       />
     </div>
     <div class="hero__content anim anim--load anim--left">
