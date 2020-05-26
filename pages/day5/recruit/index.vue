@@ -4,7 +4,7 @@
       <div class="header__logo">
         <a href="index.html" class="opacity">
           <p>
-            <img src="img/common/logo.svg" class="img__fit" alt="キカガク" />
+            <img src="~assets/img/common/logo.svg" class="img__fit" alt="キカガク" />
           </p>
         </a>
       </div>
@@ -113,8 +113,8 @@
       <div id="hero" class="sec__hero sec__hero--recruit">
         <div class="anim anim--scroll anim--in">
           <img
-            src="img/hero/recruit.jpg"
-            srcset="img/hero/recruit.jpg 1x, img/hero/recruit-2x.jpg 2x"
+            src="~assets/img/hero/recruit.jpg"
+            srcset="~assets/img/hero/recruit.jpg 1x, ~assets/img/hero/recruit-2x.jpg 2x"
             class="ofi ofi--hero"
             alt="新たな教育を定義し、教育者をなりたい職業へ"
           />
@@ -161,8 +161,8 @@
           <div class="anim anim--scroll anim--bottom">
             <a href="#recruit-intro">
               <img
-                src="img/hero/scroll.png"
-                srcset="img/hero/scroll.png 1x, img/hero/scroll-2x.png 2x"
+                src="~assets/img/hero/scroll.png"
+                srcset="~assets/img/hero/scroll.png 1x, ~assets/img/hero/scroll-2x.png 2x"
                 class="img__fit"
                 alt="SCROLL"
               />
@@ -211,7 +211,7 @@
                   <a href="#">
                     <div class="recruitP__member__image">
                       <div class="img__scale">
-                        <img src="img/sample/member1.jpg" class="ofi ofi--member" alt="西沢 衛" />
+                        <img src="~assets/img/sample/member1.jpg" class="ofi ofi--member" alt="西沢 衛" />
                       </div>
                       <p class="recruitP__member__position">執行役員</p>
                       <p class="recruitP__member__en">It’s a Chance!</p>
@@ -237,7 +237,7 @@
                   <a href="#">
                     <div class="recruitP__member__image">
                       <div class="img__scale">
-                        <img src="img/sample/member1.jpg" class="ofi ofi--member" alt="西沢 衛" />
+                        <img src="~assets/img/sample/member1.jpg" class="ofi ofi--member" alt="西沢 衛" />
                       </div>
                       <p class="recruitP__member__position">執行役員</p>
                       <p class="recruitP__member__en">It’s a Chance!</p>
@@ -263,7 +263,7 @@
                   <a href="#">
                     <div class="recruitP__member__image">
                       <div class="img__scale">
-                        <img src="img/sample/member1.jpg" class="ofi ofi--member" alt="西沢 衛" />
+                        <img src="~assets/img/sample/member1.jpg" class="ofi ofi--member" alt="西沢 衛" />
                       </div>
                       <p class="recruitP__member__position">執行役員</p>
                       <p class="recruitP__member__en">It’s a Chance!</p>
@@ -289,7 +289,7 @@
                   <a href="#">
                     <div class="recruitP__member__image">
                       <div class="img__scale">
-                        <img src="img/sample/member1.jpg" class="ofi ofi--member" alt="西沢 衛" />
+                        <img src="~assets/img/sample/member1.jpg" class="ofi ofi--member" alt="西沢 衛" />
                       </div>
                       <p class="recruitP__member__position">執行役員</p>
                       <p class="recruitP__member__en">It’s a Chance!</p>
@@ -315,7 +315,7 @@
                   <a href="#">
                     <div class="recruitP__member__image">
                       <div class="img__scale">
-                        <img src="img/sample/member1.jpg" class="ofi ofi--member" alt="西沢 衛" />
+                        <img src="~assets/img/sample/member1.jpg" class="ofi ofi--member" alt="西沢 衛" />
                       </div>
                       <p class="recruitP__member__position">執行役員</p>
                       <p class="recruitP__member__en">It’s a Chance!</p>
@@ -341,7 +341,7 @@
                   <a href="#">
                     <div class="recruitP__member__image">
                       <div>
-                        <img src="img/sample/member1.jpg" class="ofi ofi--member" alt="西沢 衛" />
+                        <img src="~assets/img/sample/member1.jpg" class="ofi ofi--member" alt="西沢 衛" />
                       </div>
                       <p class="recruitP__member__position">執行役員</p>
                       <p class="recruitP__member__en">It’s a Chance!</p>
@@ -390,8 +390,8 @@
               <div class="recruitP__personality__image">
                 <div class="img__scale">
                   <img
-                    src="img/recruit/personality01.jpg"
-                    srcset="img/recruit/personality01.jpg 1x, img/recruit/personality01-2x.jpg 2x"
+                    src="~assets/img/recruit/personality01.jpg"
+                    srcset="~assets/img/recruit/personality01.jpg 1x, ~assets/img/recruit/personality01-2x.jpg 2x"
                     class="img__fit"
                     alt="教育業界を変革したいという熱い想い"
                   />
@@ -415,8 +415,8 @@
               <div class="recruitP__personality__image">
                 <div class="img__scale">
                   <img
-                    src="img/recruit/personality02.jpg"
-                    srcset="img/recruit/personality02.jpg 1x, img/recruit/personality02-2x.jpg 2x"
+                    src="~assets/img/recruit/personality02.jpg"
+                    srcset="~assets/img/recruit/personality02.jpg 1x, ~assets/img/recruit/personality02-2x.jpg 2x"
                     class="img__fit"
                     alt="底なしの成長意欲"
                   />
@@ -437,8 +437,8 @@
               <div class="recruitP__personality__image">
                 <div class="img__scale">
                   <img
-                    src="img/recruit/personality03.jpg"
-                    srcset="img/recruit/personality03.jpg 1x, img/recruit/personality03-2x.jpg 2x"
+                    src="~assets/img/recruit/personality03.jpg"
+                    srcset="~assets/img/recruit/personality03.jpg 1x, ~assets/img/recruit/personality03-2x.jpg 2x"
                     class="img__fit"
                     alt="何事もまずはやりきることから始めよう"
                   />
@@ -459,8 +459,8 @@
               <div class="recruitP__personality__image">
                 <div class="img__scale">
                   <img
-                    src="img/recruit/personality04.jpg"
-                    srcset="img/recruit/personality04.jpg 1x, img/recruit/personality04-2x.jpg 2x"
+                    src="~assets/img/recruit/personality04.jpg"
+                    srcset="~assets/img/recruit/personality04.jpg 1x, ~assets/img/recruit/personality04-2x.jpg 2x"
                     class="img__fit"
                     alt="Be professional"
                   />
@@ -481,8 +481,8 @@
               <div class="recruitP__personality__image">
                 <div class="img__scale">
                   <img
-                    src="img/recruit/personality05.jpg"
-                    srcset="img/recruit/personality05.jpg 1x, img/recruit/personality05-2x.jpg 2x"
+                    src="~assets/img/recruit/personality05.jpg"
+                    srcset="~assets/img/recruit/personality05.jpg 1x, ~assets/img/recruit/personality05-2x.jpg 2x"
                     class="img__fit"
                     alt="教え合いの文化とフォロワーシップを大切に"
                   />
@@ -506,8 +506,8 @@
               <div class="recruitP__personality__image">
                 <div class="img__scale">
                   <img
-                    src="img/recruit/personality06.jpg"
-                    srcset="img/recruit/personality06.jpg 1x, img/recruit/personality06-2x.jpg 2x"
+                    src="~assets/img/recruit/personality06.jpg"
+                    srcset="~assets/img/recruit/personality06.jpg 1x, ~assets/img/recruit/personality06-2x.jpg 2x"
                     class="img__fit"
                     alt="チームキカガクの精神とリスペクトを忘れずに"
                   />
@@ -539,8 +539,8 @@
           <div class="recruitP__guideline__image anim anim--scroll anim--left">
             <div class="recruitP__guideline__image__inner">
               <img
-                src="img/recruit/yokou.jpg"
-                srcset="img/recruit/yokou.jpg 1x, img/recruit/yokou-2x.jpg 2x"
+                src="~assets/img/recruit/yokou.jpg"
+                srcset="~assets/img/recruit/yokou.jpg 1x, ~assets/img/recruit/yokou-2x.jpg 2x"
                 class="img__fit"
                 alt="募集要項"
               />
@@ -585,8 +585,8 @@
               <div class="recruitP__benefits">
                 <div class="recruitP__benefits__image">
                   <img
-                    src="img/recruit/benefits01.png"
-                    srcset="img/recruit/benefits01.png 1x, img/recruit/benefits01-2x.png 2x"
+                    src="~assets/img/recruit/benefits01.png"
+                    srcset="~assets/img/recruit/benefits01.png 1x, ~assets/img/recruit/benefits01-2x.png 2x"
                     class="img__fit"
                     alt="休日休暇"
                   />
@@ -604,8 +604,8 @@
               <div class="recruitP__benefits">
                 <div class="recruitP__benefits__image">
                   <img
-                    src="img/recruit/benefits02.png"
-                    srcset="img/recruit/benefits02.png 1x, img/recruit/benefits02-2x.png 2x"
+                    src="~assets/img/recruit/benefits02.png"
+                    srcset="~assets/img/recruit/benefits02.png 1x, ~assets/img/recruit/benefits02-2x.png 2x"
                     class="img__fit"
                     alt="書籍手当"
                   />
@@ -621,8 +621,8 @@
               <div class="recruitP__benefits">
                 <div class="recruitP__benefits__image">
                   <img
-                    src="img/recruit/benefits03.png"
-                    srcset="img/recruit/benefits03.png 1x, img/recruit/benefits03-2x.png 2x"
+                    src="~assets/img/recruit/benefits03.png"
+                    srcset="~assets/img/recruit/benefits03.png 1x, ~assets/img/recruit/benefits03-2x.png 2x"
                     class="img__fit"
                     alt="健康サポート"
                   />
@@ -639,8 +639,8 @@
               <div class="recruitP__benefits">
                 <div class="recruitP__benefits__image">
                   <img
-                    src="img/recruit/benefits04.png"
-                    srcset="img/recruit/benefits04.png 1x, img/recruit/benefits04-2x.png 2x"
+                    src="~assets/img/recruit/benefits04.png"
+                    srcset="~assets/img/recruit/benefits04.png 1x, ~assets/img/recruit/benefits04-2x.png 2x"
                     class="img__fit"
                     alt="フレックス制度"
                   />
@@ -655,8 +655,8 @@
               <div class="recruitP__benefits">
                 <div class="recruitP__benefits__image">
                   <img
-                    src="img/recruit/benefits05.png"
-                    srcset="img/recruit/benefits05.png 1x, img/recruit/benefits05-2x.png 2x"
+                    src="~assets/img/recruit/benefits05.png"
+                    srcset="~assets/img/recruit/benefits05.png 1x, ~assets/img/recruit/benefits05-2x.png 2x"
                     class="img__fit"
                     alt="昼寝推奨"
                   />
@@ -672,8 +672,8 @@
               <div class="recruitP__benefits">
                 <div class="recruitP__benefits__image">
                   <img
-                    src="img/recruit/benefits06.png"
-                    srcset="img/recruit/benefits06.png 1x, img/recruit/benefits06-2x.png 2x"
+                    src="~assets/img/recruit/benefits06.png"
+                    srcset="~assets/img/recruit/benefits06.png 1x, ~assets/img/recruit/benefits06-2x.png 2x"
                     class="img__fit"
                     alt="家賃手当"
                   />
@@ -709,8 +709,8 @@
               </p>
               <div class="recruitP__flow__image">
                 <img
-                  src="img/recruit/flow01.png"
-                  srcset="img/recruit/flow01.png 1x, img/recruit/flow01-2x.png 2x"
+                  src="~assets/img/recruit/flow01.png"
+                  srcset="~assets/img/recruit/flow01.png 1x, ~assets/img/recruit/flow01-2x.png 2x"
                   class="img__fit"
                   alt="エントリー"
                 />
@@ -724,8 +724,8 @@
               </p>
               <div class="recruitP__flow__image">
                 <img
-                  src="img/recruit/flow02.png"
-                  srcset="img/recruit/flow02.png 1x, img/recruit/flow02-2x.png 2x"
+                  src="~assets/img/recruit/flow02.png"
+                  srcset="~assets/img/recruit/flow02.png 1x, ~assets/img/recruit/flow02-2x.png 2x"
                   class="img__fit"
                   alt="第一次面談"
                 />
@@ -740,8 +740,8 @@
               </p>
               <div class="recruitP__flow__image">
                 <img
-                  src="img/recruit/flow03.png"
-                  srcset="img/recruit/flow03.png 1x, img/recruit/flow03-2x.png 2x"
+                  src="~assets/img/recruit/flow03.png"
+                  srcset="~assets/img/recruit/flow03.png 1x, ~assets/img/recruit/flow03-2x.png 2x"
                   class="img__fit"
                   alt="第二次面談"
                 />
@@ -756,8 +756,8 @@
               </p>
               <div class="recruitP__flow__image">
                 <img
-                  src="img/recruit/flow04.png"
-                  srcset="img/recruit/flow04.png 1x, img/recruit/flow04-2x.png 2x"
+                  src="~assets/img/recruit/flow04.png"
+                  srcset="~assets/img/recruit/flow04.png 1x, ~assets/img/recruit/flow04-2x.png 2x"
                   class="img__fit"
                   alt="最終面談"
                 />
@@ -769,8 +769,8 @@
               <p class="recruitP__flow__en">Congratulation</p>
               <div class="recruitP__flow__image">
                 <img
-                  src="img/recruit/flow05.png"
-                  srcset="img/recruit/flow05.png 1x, img/recruit/flow05-2x.png 2x"
+                  src="~assets/img/recruit/flow05.png"
+                  srcset="~assets/img/recruit/flow05.png 1x, ~assets/img/recruit/flow05-2x.png 2x"
                   class="img__fit"
                   alt="内定"
                 />
@@ -790,8 +790,8 @@
             <div class="recruitP__entry__image">
               <div class="img__scale">
                 <img
-                  src="img/recruit/entry.jpg"
-                  srcset="img/recruit/entry.jpg 1x, img/recruit/entry-2x.jpg 2x"
+                  src="~assets/img/recruit/entry.jpg"
+                  srcset="~assets/img/recruit/entry.jpg 1x, ~assets/img/recruit/entry-2x.jpg 2x"
                   class="img__fit"
                   alt="AI・機械学習講師"
                 />
