@@ -38,8 +38,8 @@ Temporary Items
 # Nuxt build
 .nuxt
 
- # Nuxt generate
-# docs
+# Nuxt generate
+docs
 
 ### Vue ###
 .DS_*
