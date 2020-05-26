@@ -2,19 +2,19 @@
   <div>
     <page-header />
     <nuxt />
-    <migration />
+    <inquiry />
     <page-footer />
   </div>
 </template>
 
 <script>
 import PageHeader from '~/components/common/PageHeader.vue'
-import Migration from '~/components/common/Migration.vue'
+import Inquiry from '~/components/common/Inquiry.vue'
 import PageFooter from '~/components/common/PageFooter.vue'
 export default {
   components: {
     PageHeader,
-    Migration,
+    Inquiry,
     PageFooter
   }
 }

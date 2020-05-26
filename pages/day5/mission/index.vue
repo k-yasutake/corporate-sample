@@ -354,6 +354,6 @@
 </template>
 
 <script>
-console.log(process.env.base_url);
+// console.log(process.env.base_url);
 export default {};
 </script>

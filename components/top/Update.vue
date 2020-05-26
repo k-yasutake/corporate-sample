@@ -123,69 +123,33 @@
           </div>
           <div class="update__content__container">
             <div class="blogF__container hover__container">
-              <a href="#">
-                <div class="blogF__image">
-                  <div class="img__scale">
-                    <img
-                      src="~assets/img/sample/blog1.jpg"
-                      class="ofi ofi--blogF"
-                      alt="ダミーテキスト。タイトルが入ります。タイトルが入ります..."
-                    />
-                  </div>
-                </div>
-                <div class="blogF__content">
-                  <div class="blogF__content__inner">
-                    <p class="blogF__date">2019.03.01</p>
-                    <h3 class="blogF__heading">ダミーテキスト。タイトルが入ります。タイトルが入ります...</h3>
-                    <div class="mt10 right">
-                      <p class="btn btn--more btn--more--blue">VIEW MORE</p>
+
+              <template v-for="item in items">
+                <a :href="item.url">
+                  <div class="blogF__image">
+                    <div class="img__scale">
+                      <img
+                        :src="item.img_url"
+                        class="ofi ofi--blogF"
+                        :alt="item.img_alt"
+                      />
                     </div>
                   </div>
-                </div>
-              </a>
-              <a href="#">
-                <div class="blogF__image">
-                  <div class="img__scale">
-                    <img
-                      src="~assets/img/sample/blog2.jpg"
-                      class="ofi ofi--blogF"
-                      alt="ダミーテキスト。タイトルが入ります。タイトルが入ります..."
-                    />
-                  </div>
-                </div>
-                <div class="blogF__content">
-                  <div class="blogF__content__inner">
-                    <p class="blogF__date">2019.03.01</p>
-                    <h3 class="blogF__heading">ダミーテキスト。タイトルが入ります。タイトルが入ります...</h3>
-                    <div class="mt10 right">
-                      <p class="btn btn--more btn--more--blue">VIEW MORE</p>
+                  <div class="blogF__content">
+                    <div class="blogF__content__inner">
+                      <p class="blogF__date">2019.03.01</p>
+                      <h3 class="blogF__heading"><span v-html="item.title"></span></h3>
+                      <div class="mt10 right">
+                        <p class="btn btn--more btn--more--blue">VIEW MORE</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
-              <a href="#">
-                <div class="blogF__image">
-                  <div class="img__scale">
-                    <img
-                      src="~assets/img/sample/blog3.jpg"
-                      class="ofi ofi--blogF"
-                      alt="ダミーテキスト。タイトルが入ります。タイトルが入ります..."
-                    />
-                  </div>
-                </div>
-                <div class="blogF__content">
-                  <div class="blogF__content__inner">
-                    <p class="blogF__date">2019.03.01</p>
-                    <h3 class="blogF__heading">ダミーテキスト。タイトルが入ります。タイトルが入ります...</h3>
-                    <div class="mt10 right">
-                      <p class="btn btn--more btn--more--blue">VIEW MORE</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
+                </a>
+              </template>
             </div>
           </div>
         </div>
+
         <div class="mt60 center none__pc anim anim--scroll anim--bottom">
           <div class="btn btn--radius btn--mark btn--blue btn--240">
             <div class="btn--radius__effect"></div>
@@ -384,3 +348,11 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  props: [
+    'items'
+  ]
+}
+</script>
